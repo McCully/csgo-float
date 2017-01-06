@@ -1,6 +1,6 @@
 import fs from 'fs'
 
-import FloatClient     from './src'
+import FloatClient  from './src'
 
 const client = new FloatClient({
   account_name: '',
