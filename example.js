@@ -18,7 +18,7 @@ client
       })
 
   })
-  .on('sentry', data => {
+  .on('sentry',  data => {
     console.log('sentry', data)
     fs.writeFileSync('access.sentry', data)
   })
