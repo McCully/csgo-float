@@ -10,7 +10,7 @@ const client = new FloatClient({
 }, true)
 
 client
-  .on('ready', () => {
+  .on ('ready', () => {
 
     client.requestFloat('S76561198190349706A4757476613D16467978012840927110')
       .then(floatValue => {
